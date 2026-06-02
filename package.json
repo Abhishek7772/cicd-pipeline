@@ -1,0 +1,22 @@
+{
+  "name": "cicd-pipeline-app",
+  "version": "1.0.0",
+  "description": "Cloud-Based Automated CI/CD Pipeline - MCA Project by Abhishek Parmar",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "jest --coverage",
+    "lint": "eslint src/",
+    "build": "mkdir -p dist && cp -r src/* dist/"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "eslint": "^8.0.0",
+    "supertest": "^6.3.0"
+  },
+  "author": "Abhishek Parmar",
+  "license": "MIT"
+}
